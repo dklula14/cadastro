@@ -45,4 +45,5 @@ app.delete('/clientes/:id',(req,res) =>{
     clientes.splice(index,1)
     res.send("Cliente excluido com sucesso!")
 })
+
 export default app
